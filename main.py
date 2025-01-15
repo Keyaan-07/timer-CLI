@@ -166,7 +166,7 @@ def timer():
         time.sleep(timer_duration)
         for i in range(5):
             print()
-        question = "Time's up! Enter 'Exit' to exit, 'Reset' to reset or 'Restart' to restart"
+        question = "Time's up! Enter 'Exit' to exit, 'Reset' to reset or 'Restart' to restart: "
         confirmation1(question)
     elif not flag:
         print("Enter Again")
