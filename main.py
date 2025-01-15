@@ -126,7 +126,7 @@ def timer():
     while i==True:
         try:
             i=False
-            timer_minutes = int(input("Enter Minutes for timer between 0-59"))
+            timer_minutes = int(input("Enter Minutes for timer between 0-59: "))
             if timer_minutes > 59:
                 timer_minutes=59
             elif timer_minutes<0:
